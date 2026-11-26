@@ -1,0 +1,1169 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Đức Thành TikTok Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#F4F7F2;--surface:#FFFFFF;--ink:#16221A;--muted:#56675B;--line:#DAE3D8;
+  --accent:#1D6A42;--accent-ink:#FFFFFF;--soft:#E4EFE6;--head:#123F28;--head-ink:#EAF4EC;
+  --warn:#8A4B00;--warn-bg:#FCEFD6;--bad:#A8201A;--bad-bg:#FCE6E2;--info:#1F5A8A;--info-bg:#E3EEF8;
+  --mark-bad:#F9C9C2;--mark-warn:#F8DFA8;--mark-info:#CFE3F4;
+  --radius:10px;--shadow:0 1px 2px rgba(20,40,28,.06),0 2px 8px rgba(20,40,28,.05);
+  --font:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;
+  --bg:#0E1611;--surface:#15201A;--ink:#E4EDE6;--muted:#9AAC9F;--line:#27372D;
+  --accent:#63C08C;--accent-ink:#0B1A11;--soft:#1A2D21;--head:#0B2416;--head-ink:#DDEEE2;
+  --warn:#F2B75E;--warn-bg:#33260E;--bad:#F3897D;--bad-bg:#3A1714;--info:#8CC0EC;--info-bg:#132A3D;
+  --mark-bad:#6B2620;--mark-warn:#5E4513;--mark-info:#1D4466;
+  --shadow:0 1px 2px rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0E1611;--surface:#15201A;--ink:#E4EDE6;--muted:#9AAC9F;--line:#27372D;
+  --accent:#63C08C;--accent-ink:#0B1A11;--soft:#1A2D21;--head:#0B2416;--head-ink:#DDEEE2;
+  --warn:#F2B75E;--warn-bg:#33260E;--bad:#F3897D;--bad-bg:#3A1714;--info:#8CC0EC;--info-bg:#132A3D;
+  --mark-bad:#6B2620;--mark-warn:#5E4513;--mark-info:#1D4466;
+  --shadow:0 1px 2px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.55}
+a{color:var(--accent)}
+h1,h2,h3{text-wrap:balance;line-height:1.25;margin:0}
+h2{font-size:1.35rem;font-weight:700}
+h3{font-size:1.05rem;font-weight:600}
+p{margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:16px}
+header.top{background:var(--head);color:var(--head-ink);padding-block:14px 0;position:sticky;top:env(safe-area-inset-top,0px);z-index:10}
+.brand{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:space-between}
+.brand h1{font-size:1.15rem;font-weight:700;letter-spacing:.01em}
+.brand small{display:block;font-weight:500;opacity:.75;font-size:.8rem;letter-spacing:.02em}
+.scan-pill{font-size:.78rem;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);padding:4px 10px;border-radius:99px;white-space:nowrap}
+nav.tabs{display:flex;gap:2px;overflow-x:auto;margin-top:12px;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{font:inherit;font-size:.92rem;font-weight:600;color:var(--head-ink);opacity:.72;background:none;border:0;padding:10px 14px 12px;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap}
+nav.tabs button:hover{opacity:1}
+nav.tabs button[aria-selected="true"]{opacity:1;border-bottom-color:#8FD6AC}
+nav.tabs button:focus-visible{outline:2px solid #8FD6AC;outline-offset:-2px}
+main{padding-block:22px 60px}
+section.tab{display:grid;gap:18px}
+.lead{display:grid;gap:6px}
+.lead p{color:var(--muted);max-width:68ch}
+.quick{background:var(--soft);border-radius:var(--radius);padding:14px 16px;display:grid;gap:8px}
+.quick h3{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent)}
+.quick ol{margin:0;padding-left:1.2em;display:grid;gap:4px}
+.quick li::marker{font-weight:700;color:var(--accent)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;display:grid;gap:10px;align-content:start}
+.card ul,.card ol{margin:0;padding-left:1.15em;display:grid;gap:4px}
+details.acc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+details.acc>summary{list-style:none;cursor:pointer;padding:14px 16px;font-weight:600;display:flex;gap:10px;align-items:center;justify-content:space-between}
+details.acc>summary::-webkit-details-marker{display:none}
+details.acc>summary::after{content:"+";font-size:1.2rem;color:var(--muted);font-weight:500}
+details.acc[open]>summary::after{content:"–"}
+details.acc>summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:var(--radius)}
+.acc-body{padding:0 16px 16px;display:grid;gap:10px}
+.acc-body ul,.acc-body ol{margin:0;padding-left:1.15em;display:grid;gap:4px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.9rem;background:var(--surface)}
+th,td{padding:9px 11px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+th{font-size:.76rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--soft);font-weight:600}
+tr:last-child td{border-bottom:0}
+.do-dont{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.do,.dont{border-radius:var(--radius);padding:14px 16px;display:grid;gap:8px;align-content:start}
+.do{background:var(--soft)} .dont{background:var(--bad-bg)}
+.do h3{color:var(--accent)} .dont h3{color:var(--bad)}
+.do ul,.dont ul{margin:0;padding-left:1.15em;display:grid;gap:4px}
+.note{font-size:.84rem;color:var(--muted);border-left:3px solid var(--line);padding-left:10px}
+.chip{display:inline-flex;align-items:center;gap:4px;font-size:.74rem;font-weight:600;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.lv-cam{background:var(--bad-bg);color:var(--bad)}
+.lv-cao{background:var(--warn-bg);color:var(--warn)}
+.lv-tb{background:var(--info-bg);color:var(--info)}
+.k-tiktok{background:var(--soft);color:var(--accent)}
+.k-phapluat{background:var(--info-bg);color:var(--info)}
+.k-noibo{background:var(--warn-bg);color:var(--warn)}
+.steps{counter-reset:s;display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.steps>li{counter-increment:s;display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start}
+.steps>li::before{content:counter(s);width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:.82rem;display:grid;place-items:center;font-variant-numeric:tabular-nums}
+.btn{font:inherit;font-weight:600;font-size:.9rem;border-radius:8px;padding:9px 14px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn:focus-visible,textarea:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+textarea,input[type=text],input[type=date],input[type=url],select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px;width:100%}
+textarea{min-height:170px;resize:vertical}
+label.lbl{font-size:.8rem;font-weight:600;color:var(--muted);display:grid;gap:4px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.filters button{font:inherit;font-size:.82rem;font-weight:600;padding:5px 12px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.feed{display:grid;gap:10px}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;display:grid;gap:6px;border-left:4px solid var(--line)}
+.item.important{border-left-color:var(--bad)}
+.item .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.item h3{font-size:1rem}
+.item p{color:var(--ink)}
+.empty{color:var(--muted);font-size:.9rem;padding:14px 0}
+.checker{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:760px){.checker{grid-template-columns:1fr}}
+.verdict{border-radius:var(--radius);padding:12px 14px;font-weight:600;display:flex;gap:10px;align-items:center}
+.verdict.ok{background:var(--soft);color:var(--accent)}
+.verdict.warn{background:var(--warn-bg);color:var(--warn)}
+.verdict.bad{background:var(--bad-bg);color:var(--bad)}
+.hl{white-space:pre-wrap;word-break:break-word;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:.93rem;max-height:320px;overflow:auto}
+mark{border-radius:3px;padding:0 1px;color:inherit}
+mark.m-cam{background:var(--mark-bad)} mark.m-cao{background:var(--mark-warn)} mark.m-tb{background:var(--mark-info)}
+.hits{display:grid;gap:8px}
+.hit{border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:grid;gap:4px;background:var(--surface)}
+.hit .top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.hit b{font-weight:600}
+.hit .fix{font-size:.86rem;color:var(--muted)}
+.stat{display:flex;gap:8px;flex-wrap:wrap}
+.ai-out{display:grid;gap:8px;font-size:.92rem}
+.loop{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.loop div{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px;display:grid;gap:2px}
+.loop b{font-size:.78rem;color:var(--accent);letter-spacing:.04em}
+.checklist label{display:flex;gap:8px;align-items:flex-start;padding:4px 0;cursor:pointer}
+.checklist input{margin-top:4px;accent-color:var(--accent)}
+.foot{font-size:.8rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin-top:10px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Đức Thành · Cộng đồng TikTok<small>Chính sách, từ khoá và cách làm kênh cho đội MKT & bán hàng</small></h1>
+      <span class="scan-pill" id="scanPill">Đang tải trạng thái quét…</span>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Các mục">
+      <button role="tab" id="t-capnhat" aria-controls="capnhat" aria-selected="true">Cập nhật</button>
+      <button role="tab" id="t-ra" aria-controls="ra" aria-selected="false">Rà từ khoá</button>
+      <button role="tab" id="t-chung" aria-controls="chung" aria-selected="false">Quy định chung</button>
+      <button role="tab" id="t-nganh" aria-controls="nganh" aria-selected="false">Phân bón & BVTV</button>
+      <button role="tab" id="t-live" aria-controls="live" aria-selected="false">Livestream & video</button>
+      <button role="tab" id="t-kenh" aria-controls="kenh" aria-selected="false">Kênh & bán hàng</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ============ CẬP NHẬT ============ -->
+<section class="tab" id="capnhat" role="tabpanel" aria-labelledby="t-capnhat">
+  <div class="lead">
+    <h2>Thay đổi mới nhất</h2>
+    <p>Mỗi tuần Claude tự đọc các trang chính sách của TikTok và đăng thay đổi vào đây. Mục đánh dấu đỏ là thay đổi ảnh hưởng trực tiếp tới cách đăng bài hoặc livestream.</p>
+  </div>
+  <div class="filters" id="feedFilters">
+    <button data-k="all" aria-pressed="true">Tất cả</button>
+    <button data-k="tiktok" aria-pressed="false">Chính sách TikTok</button>
+    <button data-k="phapluat" aria-pressed="false">Pháp luật VN</button>
+    <button data-k="noibo" aria-pressed="false">Nội bộ</button>
+  </div>
+  <p class="note" id="offlineNote" hidden></p>
+  <div class="feed" id="feed"><p class="empty">Đang tải cập nhật…</p></div>
+  <div class="row" id="offlineBar" hidden>
+    <button class="btn ghost" id="btnOffline" type="button">Tải bản offline (.html)</button>
+    <span class="note" id="offlineMsg">Bản tải về giữ nguyên mọi tin cập nhật, từ khoá và trạng thái quét đến lúc bấm nút. Mở được khi không có mạng.</span>
+  </div>
+
+  <details class="acc" id="addBox" hidden>
+    <summary>Thêm cập nhật thủ công (chỉ người có quyền chỉnh sửa)</summary>
+    <form class="acc-body" id="addForm">
+      <div class="grid2">
+        <label class="lbl" for="fTitle">Tiêu đề<input type="text" id="fTitle" required maxlength="160"></label>
+        <label class="lbl" for="fDate">Ngày<input type="date" id="fDate" required></label>
+      </div>
+      <label class="lbl" for="fSummary">Tóm tắt & việc cần làm<textarea id="fSummary" required style="min-height:90px"></textarea></label>
+      <div class="grid2">
+        <label class="lbl" for="fKind">Loại<select id="fKind"><option value="tiktok">Chính sách TikTok</option><option value="phapluat">Pháp luật VN</option><option value="noibo">Nội bộ</option></select></label>
+        <label class="lbl" for="fLevel">Mức độ<select id="fLevel"><option value="thong-tin">Thông tin</option><option value="quan-trong">Quan trọng</option></select></label>
+      </div>
+      <label class="lbl" for="fUrl">Link nguồn (nếu có)<input type="url" id="fUrl" placeholder="https://"></label>
+      <div class="row"><button class="btn" type="submit" id="fSubmit">Đăng cập nhật</button><span id="fMsg" class="note" hidden></span></div>
+    </form>
+  </details>
+</section>
+
+<!-- ============ RÀ TỪ KHOÁ ============ -->
+<section class="tab" id="ra" role="tabpanel" aria-labelledby="t-ra" hidden>
+  <div class="lead">
+    <h2>Rà từ khoá trước khi đăng</h2>
+    <p>Dán caption, kịch bản video hoặc lời thoại livestream. Công cụ đánh dấu từ ngữ dễ bị gỡ, bị bóp tương tác hoặc vi phạm luật quảng cáo, kèm gợi ý cách nói thay.</p>
+  </div>
+  <div class="checker">
+    <div class="card">
+      <label class="lbl" for="src">Nội dung cần rà</label>
+      <textarea id="src">🔥 Thuốc trừ sâu đặc trị rầy nâu SỐ 1 thị trường, diệt sạch 100% chỉ sau 1 lần phun, an toàn tuyệt đối cho người và vật nuôi!
+Kết hợp phân bón siêu tăng năng suất gấp đôi, cam kết hiệu quả.
+Bà con ib Zalo 0909 123 456 để được giá sỉ, follow chéo nhận quà nha 😍</textarea>
+      <div class="row">
+        <label class="checklist"><label><input type="checkbox" id="optAgri" checked> Bật từ khoá ngành phân bón & BVTV</label></label>
+      </div>
+      <div class="row">
+        <button class="btn" id="btnCheck" type="button">Rà ngay</button>
+        <button class="btn ghost" id="btnClear" type="button">Xoá nội dung</button>
+        <button class="btn ghost" id="btnAI" type="button" hidden>Nhờ Claude rà ngữ cảnh</button>
+      </div>
+      <p class="note">Nội dung mẫu ở trên được soạn để minh hoạ các lỗi thường gặp. Công cụ chỉ so khớp từ khoá, không thay được kiểm duyệt của TikTok. Dùng nút “Nhờ Claude rà ngữ cảnh” để kiểm tra ý nghĩa cả câu (tính vào lượt dùng Claude của bạn).</p>
+    </div>
+    <div class="card" aria-live="polite">
+      <div id="verdict" class="verdict ok">Chưa rà</div>
+      <div class="stat" id="stat"></div>
+      <div class="hl" id="hl"></div>
+      <div class="hits" id="hits"></div>
+      <div class="ai-out" id="aiOut" hidden></div>
+    </div>
+  </div>
+  <details class="acc">
+    <summary>Mức cảnh báo nghĩa là gì?</summary>
+    <div class="acc-body">
+      <ul>
+        <li><span class="chip lv-cam">Cấm</span> Thường bị gỡ bài, bị cảnh cáo tài khoản, hoặc vi phạm luật. Bắt buộc sửa.</li>
+        <li><span class="chip lv-cao">Rủi ro cao</span> Dễ bị bóp tương tác (không lên For You), bị từ chối quảng cáo, hoặc vi phạm Luật Quảng cáo nếu không có giấy tờ chứng minh. Nên sửa.</li>
+        <li><span class="chip lv-tb">Lưu ý</span> Được dùng trong một số ngữ cảnh. Đọc lại cả câu.</li>
+      </ul>
+      <p class="note">Viết lách như “m.a t.u.y”, “100 %”, không dấu, hay thay chữ bằng số vẫn bị phát hiện. TikTok có thể coi đó là cố tình né kiểm duyệt.</p>
+    </div>
+  </details>
+  <details class="acc" id="kwBox">
+    <summary>Xem toàn bộ danh sách từ khoá (<span id="kwCount">0</span>)</summary>
+    <div class="acc-body">
+      <input type="text" id="kwFilter" placeholder="Lọc theo từ hoặc nhóm…" aria-label="Lọc danh sách từ khoá">
+      <div class="tbl"><table><thead><tr><th>Từ khoá</th><th>Nhóm</th><th>Mức</th><th>Nói thay bằng</th></tr></thead><tbody id="kwBody"></tbody></table></div>
+      <form id="kwAdd" class="grid2" hidden>
+        <label class="lbl" for="kaTerm">Thêm từ khoá mới<input type="text" id="kaTerm" required maxlength="60"></label>
+        <label class="lbl" for="kaGroup">Nhóm<input type="text" id="kaGroup" required maxlength="40" value="Nội bộ bổ sung"></label>
+        <label class="lbl" for="kaLevel">Mức<select id="kaLevel"><option value="cam">Cấm</option><option value="cao" selected>Rủi ro cao</option><option value="tb">Lưu ý</option></select></label>
+        <label class="lbl" for="kaFix">Nói thay bằng<input type="text" id="kaFix" maxlength="120"></label>
+        <div class="row"><button class="btn" type="submit">Thêm vào danh sách chung</button><span id="kaMsg" class="note" hidden></span></div>
+      </form>
+    </div>
+  </details>
+</section>
+
+<!-- ============ QUY ĐỊNH CHUNG ============ -->
+<section class="tab" id="chung" role="tabpanel" aria-labelledby="t-chung" hidden>
+  <div class="lead">
+    <h2>Quy định chung của TikTok</h2>
+    <p>Tóm tắt từ Nguyên tắc cộng đồng, Điều khoản dịch vụ, chính sách nội dung thương mại và các luật Việt Nam liên quan. Bản đầy đủ ở <a href="https://claude.ai/code/artifact/3980b415-8617-409a-9ffc-eb399839c982" target="_blank" rel="noopener">Cẩm nang từ khoá & lưu ý chính sách</a>.</p>
+  </div>
+  <div class="quick">
+    <h3>Nhớ nhanh</h3>
+    <ol>
+      <li>Rủi ro hay gặp nhất là bài <b>không được lên For You</b> (vẫn còn nhưng gần như không ai thấy), không phải bị gỡ.</li>
+      <li>Mọi bài quảng bá sản phẩm phải bật <b>Tiết lộ nội dung</b>.</li>
+      <li>Tài khoản doanh nghiệp chỉ dùng nhạc trong <b>thư viện nhạc thương mại</b>.</li>
+      <li>Không ghi số điện thoại, Zalo, mã QR, số tài khoản lên video, ảnh hay caption.</li>
+      <li>Người livestream và người tặng quà phải <b>đủ 18 tuổi</b>.</li>
+    </ol>
+  </div>
+
+  <div class="tbl"><table>
+    <thead><tr><th>Mức xử lý</th><th>Nghĩa là</th><th>Dấu hiệu</th></tr></thead>
+    <tbody>
+      <tr><td><span class="chip lv-cam">Gỡ bỏ</span></td><td>Nội dung vi phạm, bị xoá, kèm cảnh cáo</td><td>Có thông báo trong Hộp thư</td></tr>
+      <tr><td><span class="chip lv-cao">Giới hạn 18+</span></td><td>Chỉ người trưởng thành xem được</td><td>Lượt xem giảm, không có thông báo rõ</td></tr>
+      <tr><td><span class="chip lv-cao">Không lên For You</span></td><td>Chỉ follower thấy, không được đề xuất</td><td>Xem ở Cài đặt › Tài khoản › Trạng thái tài khoản</td></tr>
+      <tr><td><span class="chip lv-tb">Gắn nhãn</span></td><td>Thêm cảnh báo hoặc nhãn AI/quảng cáo</td><td>Nhãn hiện trên video</td></tr>
+    </tbody>
+  </table></div>
+
+  <details class="acc" open>
+    <summary>Khi đăng video</summary>
+    <div class="acc-body">
+      <ul>
+        <li>Không đăng lại video có logo nền tảng khác (Reels, Shorts, Douyin); không cắt ghép phim, bóng đá, clip người khác.</li>
+        <li>Người dưới 18 tuổi: không để cạnh rượu, thuốc lá, hoá chất; không lộ trường học, địa chỉ.</li>
+        <li>Không quay cảnh nguy hiểm dễ bị bắt chước. Stunt chuyên nghiệp phải ghi cảnh báo.</li>
+        <li>Chữ trên video và lời nói cũng bị quét, không chỉ caption.</li>
+        <li>Video do AI tạo hoặc chỉnh sửa trông như thật phải bật nhãn <b>Nội dung do AI tạo</b>.</li>
+        <li>Hashtag 3–5 cái, đúng chủ đề. Không gắn hashtag trend không liên quan.</li>
+      </ul>
+    </div>
+  </details>
+  <details class="acc">
+    <summary>Khi đăng hình ảnh (Photo mode)</summary>
+    <div class="acc-body">
+      <ul>
+        <li>Ảnh bìa và ảnh đầu tiên quyết định việc duyệt: không dùng ảnh giật gân, trước/sau cơ thể.</li>
+        <li>Chữ trong ảnh cũng bị quét: bảng giá ghi “rẻ nhất”, số điện thoại, mã QR đều bị xử lý như caption.</li>
+        <li>Chỉ dùng ảnh tự chụp. Ảnh lấy của shop khác dễ bị báo cáo bản quyền.</li>
+        <li>Ảnh chụp tin nhắn, đánh giá của khách: che tên, ảnh đại diện, số điện thoại.</li>
+        <li>Không đăng CCCD, hoá đơn, số tài khoản, kể cả của chính mình.</li>
+      </ul>
+    </div>
+  </details>
+  <details class="acc">
+    <summary>Nội dung thương mại & TikTok Shop</summary>
+    <div class="acc-body">
+      <ul>
+        <li>Không tiết lộ là quảng cáo → không được lên For You.</li>
+        <li>Bị cấm mua bán hoặc quảng bá: vũ khí, ma tuý, thuốc kê đơn, thuốc lá & thuốc lá điện tử, sản phẩm giảm cân/tăng cơ, động vật, hàng giả, cờ bạc.</li>
+        <li>Lỗi TikTok Shop hay gặp: ảnh khác hàng thật, giảm giá ảo, tự mua đơn, mua đánh giá, gắn sản phẩm không liên quan vào video.</li>
+        <li>Minigame: có thể lệ rõ, không thu phí, không bắt “follow + share + tag 3 bạn”.</li>
+      </ul>
+    </div>
+  </details>
+  <details class="acc">
+    <summary>Bản quyền, nhạc & AI</summary>
+    <div class="acc-body">
+      <ul>
+        <li>Nhạc trend ngoài thư viện nhạc thương mại thường chỉ được dùng cho mục đích cá nhân, không dùng cho video bán hàng.</li>
+        <li>Không dùng logo, tên hãng khác để bán hàng của mình.</li>
+        <li>Không deepfake người thật. Không dùng AI giả người nổi tiếng giới thiệu sản phẩm.</li>
+        <li>Bị báo cáo bản quyền nhiều lần có thể bị khoá tài khoản.</li>
+      </ul>
+    </div>
+  </details>
+  <details class="acc">
+    <summary>Luật Việt Nam cần biết</summary>
+    <div class="acc-body">
+      <div class="tbl"><table>
+        <thead><tr><th>Văn bản</th><th>Điểm chính</th></tr></thead>
+        <tbody>
+          <tr><td>Luật Quảng cáo sửa đổi (hiệu lực 01/01/2026)</td><td>Người có ảnh hưởng, KOC phải kiểm tra giấy tờ sản phẩm, nói rõ đó là quảng cáo, không nói sai công dụng</td></tr>
+          <tr><td>Nghị định 147/2024/NĐ-CP (hiệu lực 25/12/2024)</td><td>Tài khoản phải xác thực bằng số điện thoại Việt Nam; tài khoản livestream có thu tiền phải xác thực; nền tảng gỡ nội dung vi phạm trong 24 giờ khi được yêu cầu</td></tr>
+          <tr><td>Luật Bảo vệ quyền lợi người tiêu dùng 2023</td><td>Bán hàng qua livestream phải cung cấp thông tin trung thực về sản phẩm, người bán, giá</td></tr>
+          <tr><td>Luật Bảo vệ dữ liệu cá nhân (hiệu lực 01/01/2026)</td><td>Không công khai thông tin, hình ảnh khách hàng khi chưa được đồng ý</td></tr>
+          <tr><td>Nghị định 15/2020 (sửa đổi bởi NĐ 14/2022)</td><td>Phạt hành chính khi chia sẻ thông tin sai sự thật, xúc phạm tổ chức, cá nhân</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">Tóm tắt theo hiểu biết, chưa đối chiếu văn bản gốc. Cần pháp chế kiểm tra trước khi dùng làm căn cứ.</p>
+    </div>
+  </details>
+  <details class="acc">
+    <summary>TikTok cung cấp dữ liệu cho cơ quan chức năng khi nào</summary>
+    <div class="acc-body">
+      <ul>
+        <li>Chỉ khi có yêu cầu hợp lệ theo luật. Thông tin đăng ký (email, SĐT, IP) cần mức pháp lý thấp hơn nội dung tin nhắn, video riêng tư.</li>
+        <li>Trường hợp khẩn cấp (nguy cơ tính mạng) có thể cung cấp ngay.</li>
+        <li>Cơ quan chức năng có thể yêu cầu TikTok lưu giữ dữ liệu trong lúc chờ lệnh chính thức.</li>
+      </ul>
+      <p class="note">Mọi tin nhắn, bình luận, giao dịch trên kênh đều có thể trở thành bằng chứng. Đăng ký kênh bằng email và SĐT của công ty.</p>
+    </div>
+  </details>
+  <details class="acc">
+    <summary>Cảnh cáo, khoá tài khoản & kháng nghị</summary>
+    <div class="acc-body">
+      <ul>
+        <li>Mỗi bài bị gỡ thường kèm một cảnh cáo. Tích đủ ngưỡng là bị khoá vĩnh viễn; vi phạm nghiêm trọng có thể bị khoá ngay.</li>
+        <li>Cảnh cáo thường hết hiệu lực sau khoảng 90 ngày. Theo dõi ở Cài đặt › Tài khoản › Trạng thái tài khoản.</li>
+        <li>Kháng nghị: mở thông báo vi phạm › Gửi kháng nghị › giải thích ngắn gọn (có giấy phép, có license nhạc, bối cảnh giáo dục).</li>
+        <li>Không lập tài khoản mới để né lệnh khoá. Đây là vi phạm nặng.</li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<!-- ============ NGÀNH PHÂN BÓN & BVTV ============ -->
+<section class="tab" id="nganh" role="tabpanel" aria-labelledby="t-nganh" hidden>
+  <div class="lead">
+    <h2>Lưu ý riêng cho phân bón & thuốc BVTV</h2>
+    <p>Hoá chất nông nghiệp vừa là hàng hoá bị quản lý chặt trên TikTok, vừa có quy định quảng cáo riêng của ngành. Một video pha thuốc không đồ bảo hộ có thể bị gỡ vì “hành vi nguy hiểm”, dù không có từ nào sai.</p>
+  </div>
+  <div class="quick">
+    <h3>Nhớ nhanh</h3>
+    <ol>
+      <li>Chỉ nói về thuốc có trong <b>Danh mục thuốc BVTV được phép sử dụng</b> và phân bón đã được <b>công nhận lưu hành</b>.</li>
+      <li>Quảng cáo thuốc BVTV cần nội dung được <b>Cục Bảo vệ thực vật xác nhận</b> trước khi đăng. Nội dung quảng cáo phân bón phải đúng với quyết định công nhận lưu hành.</li>
+      <li>Cảnh pha, phun: <b>luôn mặc đồ bảo hộ</b>, không có trẻ em, không ăn uống gần.</li>
+      <li>Không nói “diệt sạch 100%”, “không độc”, “an toàn tuyệt đối”, “tăng năng suất gấp đôi”.</li>
+      <li>Kiểm tra danh mục hàng hạn chế trong TikTok Shop <b>trước khi gắn giỏ</b> sản phẩm hoá chất.</li>
+    </ol>
+  </div>
+
+  <div class="do-dont">
+    <div class="do">
+      <h3>Nên làm</h3>
+      <ul>
+        <li>Video kiến thức: nhận biết sâu bệnh, thời điểm bón, cách đọc nhãn thuốc.</li>
+        <li>Mời kỹ sư nông học lên hình, nêu rõ chức danh.</li>
+        <li>Nói tên hoạt chất, liều lượng và thời gian cách ly <b>đúng như trên nhãn</b>.</li>
+        <li>Quay mô hình thực tế ngoài đồng có ghi rõ địa điểm, thời gian, điều kiện.</li>
+        <li>Nhắc thu gom bao bì, rửa bình đúng nơi quy định.</li>
+        <li>Nói “hỗ trợ”, “giúp hạn chế”, “theo kết quả mô hình tại…”.</li>
+      </ul>
+    </div>
+    <div class="dont">
+      <h3>Không làm</h3>
+      <ul>
+        <li>Pha, phun thuốc tay trần, không khẩu trang, đi dép lê.</li>
+        <li>Để trẻ em cầm chai thuốc, đứng gần khu pha.</li>
+        <li>Hướng dẫn tự phối trộn nhiều loại thuốc ngoài khuyến cáo trên nhãn.</li>
+        <li>Nhắc tới hoặc bán hoạt chất đã bị loại khỏi danh mục.</li>
+        <li>Chê, so sánh trực tiếp với sản phẩm của hãng khác.</li>
+        <li>Bán thuốc không nhãn phụ tiếng Việt, “thuốc Thái”, “hàng xách tay”.</li>
+        <li>Đổ nước rửa bình, vứt bao bì xuống kênh mương trên hình.</li>
+      </ul>
+    </div>
+  </div>
+
+  <details class="acc" open>
+    <summary>Từ khoá riêng ngành và cách nói thay</summary>
+    <div class="acc-body">
+      <div class="tbl"><table>
+        <thead><tr><th>Không nói</th><th>Vì sao</th><th>Nói thay</th></tr></thead>
+        <tbody>
+          <tr><td>diệt sạch 100%, diệt tận gốc, sạch bóng sâu</td><td>Cam kết tuyệt đối, không chứng minh được</td><td>hiệu quả cao trên rầy nâu theo mô hình tại…</td></tr>
+          <tr><td>an toàn tuyệt đối, không độc, vô hại với người</td><td>Sai sự thật với hoá chất; có thể bị coi là thông tin gây hại</td><td>độ độc nhóm… theo nhãn, sử dụng đúng hướng dẫn</td></tr>
+          <tr><td>đặc trị, thần dược, thuốc tiên</td><td>Từ ngữ thổi phồng công dụng</td><td>chuyên dùng cho…, phòng trừ…</td></tr>
+          <tr><td>tăng năng suất gấp đôi, x2 năng suất, siêu năng suất</td><td>Hứa hẹn kết quả không chứng minh</td><td>giúp cây sinh trưởng tốt, kết quả mô hình…</td></tr>
+          <tr><td>hữu cơ, sinh học, organic (khi không có chứng nhận)</td><td>Gây hiểu nhầm về bản chất sản phẩm</td><td>chỉ dùng khi sản phẩm được công nhận đúng loại đó</td></tr>
+          <tr><td>số 1, tốt nhất, hơn hẳn hãng X</td><td>So sánh tuyệt đối, Luật Quảng cáo cấm nếu không có căn cứ</td><td>được nhiều bà con tin dùng tại…</td></tr>
+          <tr><td>pha chung 3–4 loại, tự chế, tăng liều cho chắc</td><td>Hướng dẫn nguy hiểm, trái nhãn</td><td>pha đúng liều trên nhãn, hỏi kỹ sư khi cần phối hợp</td></tr>
+          <tr><td>thuốc cỏ cháy, thuốc chuột cực mạnh, uống vào là…</td><td>Liên tưởng chất độc, hành vi gây hại</td><td>tên thương phẩm + công dụng đã đăng ký</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </details>
+  <details class="acc">
+    <summary>Hoạt chất đã bị loại khỏi danh mục tại Việt Nam</summary>
+    <div class="acc-body">
+      <p>Không nhắc, không bán, không hướng dẫn dùng. Các hoạt chất thường gặp: <b>Paraquat</b>, <b>2,4-D</b>, <b>Glyphosate</b>, <b>Chlorpyrifos ethyl</b>, <b>Fipronil</b>, <b>Carbendazim</b>, <b>Benomyl</b>, <b>Thiophanate-methyl</b>. Công cụ Rà từ khoá đánh dấu các tên này ở mức Cấm.</p>
+      <p class="note">Danh sách theo hiểu biết, chưa đầy đủ. Luôn đối chiếu Danh mục thuốc BVTV được phép và cấm sử dụng mới nhất do Bộ Nông nghiệp và Môi trường ban hành.</p>
+    </div>
+  </details>
+  <details class="acc">
+    <summary>Livestream sản phẩm nông nghiệp</summary>
+    <div class="acc-body">
+      <ul>
+        <li>Không pha hay phun thuốc trực tiếp trên sóng. Muốn demo thì dùng video quay sẵn có đồ bảo hộ, hoặc chỉ demo phân bón khô.</li>
+        <li>Khách hỏi liều lượng: đọc đúng nhãn hoặc hẹn kỹ sư tư vấn, không ước lượng.</li>
+        <li>Khách gửi ảnh cây bệnh: nói “có thể là…” và khuyên kiểm tra thực tế, không chẩn đoán chắc chắn.</li>
+        <li>Không kéo khách sang Zalo để chốt đơn. Chỉ bán qua giỏ hàng.</li>
+        <li>Chai, bao sản phẩm trên bàn live phải còn nguyên nhãn, không đặt cạnh đồ ăn uống.</li>
+      </ul>
+    </div>
+  </details>
+  <details class="acc">
+    <summary>Bán phân bón, thuốc BVTV trên TikTok Shop</summary>
+    <div class="acc-body">
+      <ul>
+        <li><b>Thuốc BVTV</b> là hoá chất nguy hiểm, thường nằm trong nhóm hàng cấm hoặc hạn chế trên TikTok Shop. Kiểm tra mục chính sách sản phẩm trong Seller Center trước khi niêm yết.</li>
+        <li><b>Phân bón</b> thường phải nộp giấy tờ ngành hàng: quyết định công nhận lưu hành, giấy chứng nhận đủ điều kiện sản xuất hoặc buôn bán phân bón.</li>
+        <li>Tên, ảnh, mô tả sản phẩm phải khớp nhãn đã đăng ký (tên thương phẩm, thành phần, hàm lượng).</li>
+        <li>Sản phẩm không được bán trên Shop vẫn có thể làm nội dung kiến thức để xây thương hiệu, nhưng không kèm giá hay lời mời mua ngoài nền tảng.</li>
+      </ul>
+      <p class="note">Quy định ngành hàng của TikTok Shop thay đổi thường xuyên. Trạng thái mới nhất được cập nhật ở tab Cập nhật khi phát hiện.</p>
+    </div>
+  </details>
+</section>
+
+<!-- ============ LIVESTREAM & VIDEO ============ -->
+<section class="tab" id="live" role="tabpanel" aria-labelledby="t-live" hidden>
+  <div class="lead">
+    <h2>Livestream & video ngắn</h2>
+    <p>Tổng hợp từ buổi đào tạo “Kỹ năng livestream bán hàng & sản xuất nội dung số” (diễn giả Nguyễn Hoài Thương, 24/09/2026), kèm quy định LIVE của TikTok.</p>
+  </div>
+  <div class="quick">
+    <h3>Nhớ nhanh</h3>
+    <ol>
+      <li>Video ngắn là <b>biển quảng cáo</b> để kéo người mới; livestream là <b>chợ phiên</b> để chốt đơn.</li>
+      <li>TikTok đẩy live theo thứ tự: <b>giữ chân</b> › tương tác › đơn hàng.</li>
+      <li>Kịch bản live là <b>vòng lặp 7 bước</b>, để người vào phút thứ 30 vẫn hiểu đang bán gì.</li>
+      <li>Đăng video nhá hàng 15–30 giây và <b>hẹn giờ live cố định</b> mỗi ngày.</li>
+      <li>Vi phạm trên live bị tắt phòng ngay. Rà lời thoại ở tab Rà từ khoá trước phiên.</li>
+    </ol>
+  </div>
+
+  <details class="acc" open>
+    <summary>Quy định LIVE của TikTok</summary>
+    <div class="acc-body">
+      <ul>
+        <li>Người lên live và người tặng quà phải đủ 18 tuổi.</li>
+        <li>Nội dung không đủ điều kiện lên For You cũng bị hạn chế trên live (live chặt hơn video).</li>
+        <li>Không live với mục đích chính là kéo người xem sang Zalo, Facebook, website.</li>
+        <li>Không phát lại video quay sẵn, màn hình tĩnh, treo máy không người.</li>
+        <li>Không xin quà bằng hành động nguy hiểm, gợi cảm, hình phạt PK gây nhục mạ.</li>
+        <li>Chủ phòng chịu trách nhiệm cho khách mời: khách vi phạm, phòng bị tắt.</li>
+        <li>Giá nói trên live phải khớp giá trên giỏ hàng.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="acc">
+    <summary>Cơ chế TikTok đẩy phòng live</summary>
+    <div class="acc-body">
+      <p>Khi bấm Phát trực tiếp, TikTok đưa phòng live tới một nhóm nhỏ khoảng 20–50 người (follower và người hay xem chủ đề giống bạn), rồi chấm điểm:</p>
+      <ol>
+        <li><b>Tỷ lệ giữ chân</b>: người xem thoát dưới 3 giây hay ở lại trên 30 giây, 1 phút? Điểm cao thì TikTok đổ thêm 500, rồi 5.000 người.</li>
+        <li><b>Tỷ lệ tương tác</b>: thả tim, bình luận, chia sẻ live.</li>
+        <li><b>Tỷ lệ chuyển đổi</b>: bấm vào giỏ hàng, chốt đơn.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="acc">
+    <summary>Kịch bản live theo vòng lặp 7 bước</summary>
+    <div class="acc-body">
+      <div class="tbl"><table>
+        <thead><tr><th>Bước</th><th>Mục tiêu</th><th>Làm gì</th></tr></thead>
+        <tbody>
+          <tr><td><b>1. Mở live, thu hút</b></td><td>Giữ người xem ở lại ngay từ đầu</td><td>Hook › chào & giới thiệu › hôm nay có gì › nêu deal › tạo lý do ở lại</td></tr>
+          <tr><td><b>2. Tương tác, kết nối</b></td><td>Cảm giác đang trò chuyện, không phải phát quảng cáo</td><td>Chào người xem › gọi tên › đặt câu hỏi › kêu gọi bình luận › minigame › phản hồi</td></tr>
+          <tr><td><b>3. Giới thiệu sản phẩm</b></td><td>Khách hiểu sản phẩm, hình thành nhu cầu</td><td>Vấn đề của khách › sản phẩm giải quyết gì › điểm nổi bật › lợi ích › ai phù hợp › giá</td></tr>
+          <tr><td><b>4. Demo, chứng minh</b></td><td>Biến lời nói thành bằng chứng</td><td>Demo thực tế › cận cảnh › so sánh trước/sau › chứng minh hiệu quả</td></tr>
+          <tr><td><b>5. Tư vấn, giải đáp</b></td><td>Gỡ lý do khiến khách chưa mua</td><td>Đọc bình luận › câu hỏi thường gặp › tư vấn theo nhu cầu › xử lý băn khoăn › chính sách</td></tr>
+          <tr><td><b>6. Ưu đãi</b></td><td>Tạo động lực mua ngay</td><td>Công bố ưu đãi › giá sau ưu đãi › voucher/quà › combo › điều kiện › thời gian, số lượng giới hạn</td></tr>
+          <tr><td><b>7. Chốt đơn, lặp lại</b></td><td>Chuyển quan tâm thành đơn, đón người mới</td><td>Kêu gọi hành động › hướng dẫn đặt hàng › nhắc deal › xác nhận đơn › sang sản phẩm tiếp › lặp lại</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">Với phân bón, thuốc BVTV: bước 4 không pha, phun thuốc trực tiếp; bước 3 và 5 chỉ nói công dụng đúng nhãn.</p>
+    </div>
+  </details>
+
+  <details class="acc">
+    <summary>Bảng kiểm thiết bị trước phiên live</summary>
+    <div class="acc-body checklist" id="gearList">
+      <p class="note">Tích để tự kiểm. Dấu tích chỉ lưu trên máy của bạn.</p>
+    </div>
+  </details>
+
+  <details class="acc">
+    <summary>Góc máy và vì sao live ít mắt xem</summary>
+    <div class="acc-body">
+      <p><b>5 góc máy:</b> đứng chính diện, ngồi chính diện, cận sản phẩm, che mặt (chỉ quay tay và sản phẩm), góc nhìn thứ ba.</p>
+      <p><b>Ít mắt xem = không kéo được người vào + không giữ được người ở lại.</b></p>
+      <div class="grid2">
+        <div class="card"><h3>Không kéo được người vào</h3><ul><li>Không có traffic trước live</li><li>Không có lý do để vào live</li><li>Sai tệp người xem</li><li>Khung giờ chưa phù hợp</li><li>Thông tin live chưa rõ</li><li>Kênh chưa có tệp</li></ul></div>
+        <div class="card"><h3>Không giữ được người ở lại</h3><ul><li>Mở đầu không đủ hấp dẫn</li><li>Người xem không biết đang xem gì</li><li>Nội dung một chiều</li><li>Thiếu điểm mới</li><li>Bán hàng quá sớm khi chưa tạo nhu cầu</li><li>Không có lý do để ở lại</li></ul></div>
+      </div>
+    </div>
+  </details>
+
+  <details class="acc">
+    <summary>7 cách giữ chân người xem</summary>
+    <div class="acc-body">
+      <p>Người xem ở lại vì trong vài phút tới có thứ họ muốn biết, muốn xem hoặc muốn nhận. Đừng nói nhiều hơn, hãy tạo nhiều “điểm đáng xem” hơn.</p>
+      <div class="loop">
+        <div><b>HOOK ĐẦU LIVE</b>Thu hút trong 30–60 giây đầu</div>
+        <div><b>NỘI DUNG CÓ GIÁ TRỊ</b>Thông tin hữu ích, giải quyết vấn đề</div>
+        <div><b>TƯƠNG TÁC LIÊN TỤC</b>Hỏi, đọc bình luận, gọi tên</div>
+        <div><b>TRẢI NGHIỆM TRỰC QUAN</b>Demo, test, cận cảnh, mở hộp</div>
+        <div><b>TẠO ĐIỂM CHỜ</b>Báo trước minigame, deal, quà</div>
+        <div><b>SẢN PHẨM ĐÚNG LÚC</b>Gắn với vấn đề đang nói</div>
+        <div><b>KHÔNG KHÍ</b>Năng lượng tích cực, chân thật</div>
+      </div>
+    </div>
+  </details>
+
+  <details class="acc">
+    <summary>Xử lý tình huống trên live</summary>
+    <div class="acc-body">
+      <div class="tbl"><table>
+        <thead><tr><th>Nhóm</th><th>Tình huống thường gặp</th></tr></thead>
+        <tbody>
+          <tr><td><b>Người xem</b></td><td>Ít người xem, vào rồi thoát nhanh, không ai bình luận, bình luận quá nhiều khó kiểm soát</td></tr>
+          <tr><td><b>Khách hàng</b></td><td>Hỏi câu khó, chê sản phẩm, so sánh với đối thủ, hỏi giá liên tục, phản hồi tiêu cực</td></tr>
+          <tr><td><b>Chốt đơn</b></td><td>Hỏi nhưng không mua, không biết cách đặt hàng, đặt nhầm phiên bản, voucher lỗi, hết hàng giữa live</td></tr>
+          <tr><td><b>Host</b></td><td>Bí nội dung, nói sai thông tin, mất năng lượng, xử lý bình luận chưa linh hoạt</td></tr>
+          <tr><td><b>Sự cố</b></td><td>Mất mạng, mất tiếng, lỗi hình, sản phẩm demo lỗi, lỗi hệ thống đặt hàng</td></tr>
+          <tr><td><b>Dính từ khoá cấm</b></td><td>Dừng nói, không lặp lại từ đó, chuyển sang phần giới thiệu khác. Ghi lại để thêm vào danh sách ở tab Rà từ khoá</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">Giữ bình tĩnh. Host giỏi biến sự cố thành nội dung để tiếp tục trò chuyện.</p>
+    </div>
+  </details>
+
+  <details class="acc">
+    <summary>Kéo người xem từ video sang live</summary>
+    <div class="acc-body">
+      <div class="grid2">
+        <div class="card"><h3>Video nhá hàng (teaser)</h3><ul><li>Dài 15–30 giây, hook mạnh 3 giây đầu</li><li>Chủ đề buổi live và lợi ích người xem nhận được</li><li>Một câu gây tò mò</li><li>Thời gian live rõ ràng</li><li>Kêu gọi “vào xem live”</li></ul></div>
+        <div class="card"><h3>Hẹn giờ & tạo lý do quay lại</h3><ul><li>Tạo sự kiện live, thông báo trước vài tiếng hoặc 1 ngày</li><li>Live đúng giờ đã hẹn, cố định khung giờ mỗi ngày</li><li>Luôn có nội dung mới, kiến thức thực tế</li><li>Có ưu đãi chỉ xuất hiện trong live</li></ul></div>
+      </div>
+    </div>
+  </details>
+
+  <details class="acc">
+    <summary>Video ngắn: công thức, hook, tỷ trọng nội dung</summary>
+    <div class="acc-body">
+      <p><b>Công thức cơ bản:</b> Hook 3 giây (hình, chữ, âm thanh) › nêu vấn đề › một ý chính duy nhất › kêu gọi hành động (theo dõi, vào gian hàng, đặt câu hỏi).</p>
+      <div class="tbl"><table>
+        <thead><tr><th>Kiểu hook</th><th>Ví dụ</th></tr></thead>
+        <tbody>
+          <tr><td>Đánh vào vấn đề</td><td>“Tại sao bón phân rồi mà lúa vẫn không đẻ nhánh?”</td></tr>
+          <tr><td>Tạo tò mò</td><td>“Đừng mua phân bón trước khi biết điều này.”</td></tr>
+          <tr><td>Đưa ra lợi ích</td><td>“3 cách giúp bà con tiết kiệm chi phí phân bón vụ này.”</td></tr>
+          <tr><td>Cảnh báo</td><td>“3 dấu hiệu cho thấy bạn đang phun thuốc sai thời điểm.”</td></tr>
+          <tr><td>Con số</td><td>“30 giây để biết ruộng nhà mình đang thiếu gì.”</td></tr>
+          <tr><td>Tình huống thực tế</td><td>“Bà con vừa hỏi mình một câu rất hay…”</td></tr>
+          <tr><td>Hoạt động doanh nghiệp</td><td>“Một bao phân trước khi tới tay bà con phải qua những bước nào?”</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">Ví dụ đã được chuyển sang ngành nông nghiệp từ mẫu trong buổi đào tạo.</p>
+      <p><b>7 công thức video:</b> vấn đề › giải pháp › sản phẩm; sai lầm › cách đúng › demo; câu hỏi khách › giải đáp; so sánh › gợi ý lựa chọn; tình huống › sản phẩm xuất hiện; ưu đãi › lý do › kêu gọi; list tổng hợp (“3 điều cần biết trước khi…”).</p>
+      <p><b>Khai thác nội dung từ 4P:</b> Sản phẩm (công dụng, cách dùng, sai lầm thường gặp), Giá (vì sao giá này, chi phí trên mỗi công đất), Kênh bán (mua ở đâu, đại lý gần nhất, giao hàng), Khuyến mãi (combo, ưu đãi theo mùa vụ). Kết hợp 2–3 chữ P để ra góc mới.</p>
+      <div class="tbl"><table>
+        <thead><tr><th>Giai đoạn kênh</th><th>Thương hiệu</th><th>Sản phẩm</th></tr></thead>
+        <tbody>
+          <tr><td>Kênh mới, xây thương hiệu</td><td>70%</td><td>30%</td></tr>
+          <tr><td>Đã có nhận biết & niềm tin</td><td>50%</td><td>50%</td></tr>
+          <tr><td>Đang đẩy bán, ra mắt sản phẩm</td><td>30%</td><td>70%</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </details>
+</section>
+
+<!-- ============ KÊNH & BÁN HÀNG ============ -->
+<section class="tab" id="kenh" role="tabpanel" aria-labelledby="t-kenh" hidden>
+  <div class="lead">
+    <h2>Đăng ký kênh, gắn giỏ hàng, affiliate</h2>
+    <p>Các bước theo thứ tự làm. Tên nút trong ứng dụng có thể thay đổi theo phiên bản; nếu không thấy, tìm mục tương tự trong Cài đặt hoặc Seller Center.</p>
+  </div>
+  <div class="quick">
+    <h3>Nhớ nhanh</h3>
+    <ol>
+      <li>Đăng ký bằng <b>email và số điện thoại của công ty</b>, không dùng số cá nhân nhân viên.</li>
+      <li>Xác thực số điện thoại Việt Nam theo Nghị định 147.</li>
+      <li>Chuyển sang <b>tài khoản doanh nghiệp</b> để có thư viện nhạc thương mại và số liệu.</li>
+      <li>Liên kết tài khoản với TikTok Shop làm <b>tài khoản chính thức</b>.</li>
+      <li>Mọi video gắn giỏ hàng phải đúng sản phẩm đang nói tới.</li>
+    </ol>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>1. Đăng ký & thiết lập kênh</h3>
+      <ol class="steps">
+        <li>Tải TikTok, đăng ký bằng email hoặc SĐT công ty. Đặt tên người dùng nhất quán với thương hiệu.</li>
+        <li>Hồ sơ › Menu › Cài đặt và quyền riêng tư › Tài khoản › <b>Chuyển sang Tài khoản doanh nghiệp</b>, chọn ngành hàng.</li>
+        <li>Điền tiểu sử: sản phẩm chính, khu vực phục vụ. Không ghi số Zalo cá nhân.</li>
+        <li>Xác minh doanh nghiệp bằng giấy chứng nhận đăng ký kinh doanh (nếu ứng dụng mở tính năng này cho tài khoản).</li>
+        <li>Bật xác thực 2 bước, giao quyền quản lý cho 2 người trở lên.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h3>2. Mở TikTok Shop</h3>
+      <ol class="steps">
+        <li>Vào Seller Center Việt Nam, đăng ký loại hình <b>Doanh nghiệp</b>.</li>
+        <li>Nộp: giấy đăng ký kinh doanh, CCCD người đại diện, tài khoản ngân hàng đứng tên công ty.</li>
+        <li>Nộp giấy tờ ngành hàng hạn chế (phân bón: quyết định công nhận lưu hành, giấy đủ điều kiện buôn bán).</li>
+        <li>Liên kết kênh TikTok đã tạo ở bước 1 làm tài khoản chính thức.</li>
+        <li>Đăng sản phẩm: tên, ảnh, mô tả khớp nhãn đăng ký.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h3>3. Gắn giỏ hàng</h3>
+      <ol class="steps">
+        <li><b>Video:</b> quay/tải video › màn hình đăng › <b>Thêm liên kết</b> › Sản phẩm › chọn từ Shop của mình hoặc sản phẩm affiliate.</li>
+        <li>Đặt tên hiển thị ngắn cho giỏ hàng (không dùng từ khoá cấm).</li>
+        <li><b>LIVE:</b> trước khi phát, bấm biểu tượng giỏ hàng › thêm sản phẩm. Trong live, ghim sản phẩm đang giới thiệu.</li>
+        <li>Bật Tiết lộ nội dung cho video gắn giỏ.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h3>4. Affiliate</h3>
+      <p><b>Công ty (người bán):</b></p>
+      <ol class="steps">
+        <li>Seller Center › Tiếp thị liên kết › tạo <b>kế hoạch mở</b> (ai cũng tham gia) hoặc <b>kế hoạch mục tiêu</b> (mời KOC chọn lọc).</li>
+        <li>Đặt tỷ lệ hoa hồng từng sản phẩm, duyệt yêu cầu mẫu thử.</li>
+        <li>Gửi KOC bảng lưu ý ngành và yêu cầu rà nội dung trước khi đăng.</li>
+      </ol>
+      <p><b>Nhân viên, đại lý, KOC:</b></p>
+      <ol class="steps">
+        <li>Đủ 18 tuổi và đạt ngưỡng follower TikTok đang áp dụng (xem trong ứng dụng, mục Trung tâm nhà sáng tạo hoặc TikTok Shop).</li>
+        <li>Vào Kho sản phẩm affiliate, tìm sản phẩm Đức Thành, thêm vào kho của mình.</li>
+        <li>Gắn sản phẩm vào video hoặc live như mục 3.</li>
+      </ol>
+    </div>
+  </div>
+
+  <details class="acc">
+    <summary>Checklist giấy tờ cần chuẩn bị</summary>
+    <div class="acc-body checklist" id="docList">
+      <p class="note">Tích để tự kiểm. Dấu tích chỉ lưu trên máy của bạn.</p>
+    </div>
+  </details>
+</section>
+
+<p class="foot">Trang nội bộ Đức Thành. Tóm tắt từ các trang chính sách công khai của TikTok và tài liệu đào tạo nội bộ; không thay thế tư vấn pháp lý. Nguồn chính: <a href="https://www.tiktok.com/community-guidelines/en/overview" target="_blank" rel="noopener">Nguyên tắc cộng đồng TikTok</a>.</p>
+</main>
+
+<script type="application/json" id="hubData" data-hub>{"exportedAt": "2026-11-09T08:10:00+07:00", "scan": {"lastRun": "2026-11-09", "nextRun": "2026-11-16", "status": "loi"}, "updates": [{"date": "2026-09-24", "title": "Thêm tài liệu đào tạo livestream vào tab Livestream & video", "summary": "Nội dung buổi đào tạo “Kỹ năng livestream bán hàng & sản xuất nội dung số” (Tây Ninh, 24/09/2026): cơ chế TikTok đẩy live, kịch bản vòng lặp 7 bước, bảng kiểm thiết bị, cách giữ chân và xử lý tình huống, hook và công thức video ngắn.", "kind": "noibo", "level": "thong-tin", "source": "Tài liệu đào tạo nội bộ", "sourceUrl": "", "createdAt": "2026-09-24T15:00:00+07:00"}, {"date": "2026-09-24", "title": "Khởi tạo trang và cẩm nang chính sách", "summary": "Đã tổng hợp Nguyên tắc cộng đồng TikTok (bản đọc được ghi hiệu lực 17/05/2024) thành tab Quy định chung và công cụ Rà từ khoá. Từ tuần sau, Claude tự quét các trang chính sách mỗi thứ Hai và đăng thay đổi tại đây.", "kind": "noibo", "level": "thong-tin", "source": "Claude", "sourceUrl": "https://www.tiktok.com/community-guidelines/en/overview", "createdAt": "2026-09-24T15:00:00+07:00"}, {"date": "2026-01-01", "title": "Luật Bảo vệ dữ liệu cá nhân có hiệu lực", "summary": "Không đăng ảnh chụp tin nhắn, đơn hàng, đánh giá có tên, số điện thoại, địa chỉ khách khi chưa được đồng ý. Che thông tin trước khi đăng. Tóm tắt theo hiểu biết, cần pháp chế đối chiếu.", "kind": "phapluat", "level": "thong-tin", "source": "Pháp luật VN", "sourceUrl": "", "createdAt": "2026-09-24T15:00:00+07:00"}, {"date": "2026-01-01", "title": "Luật Quảng cáo sửa đổi có hiệu lực: KOC, người có ảnh hưởng phải nói rõ là quảng cáo", "summary": "Người giới thiệu sản phẩm phải kiểm tra giấy tờ sản phẩm, thông báo rõ nội dung là quảng cáo và không nói sai công dụng. Áp dụng cho nhân viên, đại lý và KOC làm affiliate cho Đức Thành. Tóm tắt theo hiểu biết, cần pháp chế đối chiếu văn bản gốc.", "kind": "phapluat", "level": "quan-trong", "source": "Pháp luật VN", "sourceUrl": "", "createdAt": "2026-09-24T15:00:00+07:00"}, {"date": "2024-12-25", "title": "Nghị định 147/2024: xác thực tài khoản bằng số điện thoại Việt Nam", "summary": "Tài khoản mạng xã hội phải xác thực bằng số điện thoại Việt Nam; tài khoản livestream có thu tiền phải xác thực. Dùng SĐT công ty cho kênh chính thức. Tóm tắt theo hiểu biết, cần pháp chế đối chiếu.", "kind": "phapluat", "level": "quan-trong", "source": "Pháp luật VN", "sourceUrl": "", "createdAt": "2026-09-24T15:00:00+07:00"}], "keywords": []}</script>
+<script data-hub>
+(function(){
+"use strict";
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+
+/* ---------- Bản lưu offline ----------
+   Dữ liệu cập nhật được nhúng vào trang (thẻ #hubData). Khi có kết nối,
+   bản này được thay bằng dữ liệu trực tiếp và lưu lại trên máy; khi mở
+   bản tải về hoặc mất mạng, trang hiển thị bản lưu mới nhất. */
+const PRISTINE=(()=>{
+  const c=document.documentElement.cloneNode(true);
+  c.querySelectorAll('script:not([data-hub])').forEach(n=>n.remove());
+  return '<!doctype html>'+c.outerHTML;
+})();
+function readSnap(){
+  let a=null,b=null;
+  try{a=JSON.parse($('#hubData').textContent)}catch(e){}
+  try{b=JSON.parse(store.get('hubSnap')||'null')}catch(e){}
+  const ok=x=>x&&Array.isArray(x.updates);
+  if(ok(a)&&ok(b))return (b.exportedAt||'')>(a.exportedAt||'')?b:a;
+  return ok(a)?a:ok(b)?b:null;
+}
+let snap=readSnap()||{exportedAt:'',scan:null,updates:[],keywords:[]};
+let live=false;
+function fmtTime(iso){const d=new Date(iso);if(isNaN(d))return'';const p=n=>String(n).padStart(2,'0');return `${p(d.getHours())}:${p(d.getMinutes())} ${p(d.getDate())}/${p(d.getMonth()+1)}/${d.getFullYear()}`}
+function saveSnap(){
+  snap.exportedAt=new Date().toISOString();
+  const js=JSON.stringify(snap).replace(/</g,'\\u003c');
+  try{$('#hubData').textContent=js}catch(e){}
+  store.set('hubSnap',js);
+}
+function offlineNote(){
+  const n=$('#offlineNote');
+  if(live){n.hidden=true;return}
+  n.hidden=false;
+  n.textContent=snap.exportedAt?`Đang xem bản lưu offline. Dữ liệu cập nhật đến ${fmtTime(snap.exportedAt)}. Mở trang trong Claude để xem tin mới nhất.`:'Đang xem bản lưu offline.';
+}
+function buildOffline(){
+  const js=JSON.stringify(snap).replace(/</g,'\\u003c');
+  const m=/<script[^>]*id="hub[D]ata"[^>]*>/.exec(PRISTINE);
+  if(!m)return null;
+  const i=m.index+m[0].length,j=PRISTINE.indexOf('</'+'script>',i);
+  if(j<0)return null;
+  return PRISTINE.slice(0,i)+js+PRISTINE.slice(j);
+}
+
+/* ---------- Tabs ---------- */
+const tabs=$$('nav.tabs button');
+function show(id,push){
+  tabs.forEach(b=>{const on=b.getAttribute('aria-controls')===id;b.setAttribute('aria-selected',on);b.tabIndex=on?0:-1});
+  $$('section.tab').forEach(s=>s.hidden=s.id!==id);
+  store.set('tab',id);
+  if(push){try{history.replaceState(null,'','#'+id)}catch(e){}}
+  window.scrollTo({top:0});
+}
+tabs.forEach((b,i)=>{
+  b.addEventListener('click',()=>show(b.getAttribute('aria-controls'),true));
+  b.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight'||e.key==='ArrowLeft'){const n=tabs[(i+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length];n.focus();n.click()}
+  });
+});
+const ids=tabs.map(b=>b.getAttribute('aria-controls'));
+const h=(location.hash||'').slice(1);
+show(ids.includes(h)?h:(ids.includes(store.get('tab'))?store.get('tab'):'capnhat'));
+
+/* ---------- Local checklists ---------- */
+function checklist(el,key,items){
+  let saved={};try{saved=JSON.parse(store.get(key)||'{}')}catch(e){}
+  el.querySelectorAll('label').forEach(n=>n.remove());
+  items.forEach((t,i)=>{
+    const id=key+'-'+i;const lab=document.createElement('label');lab.htmlFor=id;
+    lab.innerHTML=`<input type="checkbox" id="${id}"${saved[i]?' checked':''}> <span>${t}</span>`;
+    lab.querySelector('input').addEventListener('change',e=>{saved[i]=e.target.checked;store.set(key,JSON.stringify(saved))});
+    el.appendChild(lab);
+  });
+}
+checklist($('#gearList'),'gear',[
+ '<b>Điện thoại:</b> lau sạch camera trước và sau','<b>Điện thoại:</b> pin trên 80% và cắm sạc liên tục','<b>Điện thoại:</b> bật Không làm phiền (chặn cuộc gọi)',
+ '<b>Mic không dây:</b> sạc đầy pin','<b>Mic:</b> test tiếng to, rõ, không rè, đã bật lọc ồn','<b>Mic:</b> đầu thu cắm chặt vào điện thoại',
+ '<b>Đèn:</b> sáng đều, không nhấp nháy','<b>Đèn:</b> chỉnh đúng màu trắng/vàng','<b>Đèn:</b> đặt đối diện hoặc chếch 45°, không ngược sáng',
+ '<b>Mạng:</b> cắm dây mạng hoặc wifi riêng','<b>Mạng:</b> kiểm tra không giật lag','<b>Mạng:</b> tắt thiết bị bắt ké wifi không cần thiết',
+ '<b>Chân máy:</b> khớp vặn khoá chặt, không rung','<b>Chân máy:</b> điện thoại kẹp chắc, ngang tầm mắt người live',
+ '<b>Nội dung:</b> đã rà lời thoại ở tab Rà từ khoá','<b>Nội dung:</b> sản phẩm trên bàn còn nguyên nhãn, đã gắn giỏ hàng'
+]);
+checklist($('#docList'),'docs',[
+ 'Giấy chứng nhận đăng ký doanh nghiệp','CCCD người đại diện theo pháp luật','Tài khoản ngân hàng đứng tên công ty',
+ 'Email và SĐT công ty dùng riêng cho kênh','Quyết định công nhận lưu hành phân bón (từng sản phẩm)','Giấy chứng nhận đủ điều kiện sản xuất / buôn bán phân bón',
+ 'Giấy chứng nhận đăng ký thuốc BVTV và xác nhận nội dung quảng cáo (nếu quảng cáo thuốc)','Nhãn sản phẩm bản mới nhất để đối chiếu mô tả'
+]);
+
+/* ---------- Keyword dictionary ---------- */
+// [từ khoá, nhóm, mức (cam|cao|tb), nói thay bằng, ngành?]
+const K=[
+ // Cam kết tuyệt đối
+ ["nhất","Cam kết tuyệt đối","tb","Chỉ dùng khi có chứng nhận; thay bằng “được nhiều khách chọn”"],
+ ["tốt nhất","Cam kết tuyệt đối","cao","“phù hợp với…”, nêu số liệu có nguồn"],
+ ["số 1","Cam kết tuyệt đối","cao","“được nhiều bà con tin dùng tại…”"],
+ ["số một","Cam kết tuyệt đối","cao","“được nhiều bà con tin dùng tại…”"],
+ ["top 1","Cam kết tuyệt đối","cao","Bỏ, hoặc nêu bảng xếp hạng có nguồn"],
+ ["100%","Cam kết tuyệt đối","cao","“hiệu quả cao theo mô hình tại…”"],
+ ["cam kết hiệu quả","Cam kết tuyệt đối","cao","“theo kết quả thử nghiệm…”"],
+ ["cam kết","Cam kết tuyệt đối","tb","Chỉ cam kết điều kiểm chứng được (đổi trả, giao hàng)"],
+ ["đảm bảo hiệu quả","Cam kết tuyệt đối","cao","“hiệu quả khi dùng đúng hướng dẫn”"],
+ ["duy nhất","Cam kết tuyệt đối","cao","Bỏ nếu không chứng minh được"],
+ ["rẻ nhất","Cam kết tuyệt đối","cao","“giá ưu đãi hôm nay”"],
+ ["hơn hẳn","Cam kết tuyệt đối","cao","Không so sánh với hãng khác"],
+ ["vĩnh viễn","Cam kết tuyệt đối","cao","Nêu thời gian hiệu lực cụ thể"],
+ ["hiệu quả tức thì","Cam kết tuyệt đối","cao","“thấy hiệu quả sau… ngày theo mô hình”"],
+ ["thần dược","Cam kết tuyệt đối","cao","Tên sản phẩm + công dụng đã đăng ký"],
+ ["thần kỳ","Cam kết tuyệt đối","cao","Mô tả công dụng cụ thể"],
+ // Y tế
+ ["chữa khỏi","Y tế, sức khoẻ","cam","“hỗ trợ”, “góp phần”"],
+ ["điều trị","Y tế, sức khoẻ","cao","Chỉ dùng cho thuốc đã cấp phép"],
+ ["trị dứt điểm","Y tế, sức khoẻ","cam","“hỗ trợ cải thiện”"],
+ ["hết bệnh","Y tế, sức khoẻ","cam","“hỗ trợ”"],
+ ["thay thế thuốc","Y tế, sức khoẻ","cam","Ghi “sản phẩm không phải là thuốc…”"],
+ ["chữa ung thư","Y tế, sức khoẻ","cam","Không đề cập"],
+ ["chống ung thư","Y tế, sức khoẻ","cam","Không đề cập"],
+ // Giảm cân
+ ["giảm cân cấp tốc","Giảm cân, thân hình","cam","Nói về thói quen lành mạnh"],
+ ["thuốc giảm cân","Giảm cân, thân hình","cam","Không bán qua TikTok"],
+ ["tan mỡ","Giảm cân, thân hình","cao","Không hứa kết quả cơ thể"],
+ ["giảm 10kg","Giảm cân, thân hình","cam","Không hứa số kg"],
+ ["nhịn ăn","Giảm cân, thân hình","cao","Không khuyến khích"],
+ ["tăng cơ thần tốc","Giảm cân, thân hình","cam","Không bán sản phẩm tăng cơ"],
+ // Điều hướng ngoài
+ ["zalo","Điều hướng ra ngoài","cao","Dùng giỏ hàng / nút liên hệ trong hồ sơ doanh nghiệp"],
+ ["telegram","Điều hướng ra ngoài","cao","Không kéo khách sang nền tảng khác"],
+ ["facebook","Điều hướng ra ngoài","tb","Không mời khách sang mua ở kênh khác"],
+ ["messenger","Điều hướng ra ngoài","cao","Dùng tin nhắn TikTok"],
+ ["kết bạn zalo","Điều hướng ra ngoài","cao","Bỏ"],
+ ["ib","Điều hướng ra ngoài","tb","“nhắn tin cho kênh trên TikTok”"],
+ ["inbox","Điều hướng ra ngoài","tb","“nhắn tin cho kênh trên TikTok”"],
+ ["link bio","Điều hướng ra ngoài","tb","Chỉ dẫn về trang trong TikTok/Shop"],
+ ["quét mã qr","Điều hướng ra ngoài","cao","Bỏ mã QR khỏi video"],
+ ["số tài khoản","Điều hướng ra ngoài","cam","Thanh toán qua TikTok Shop"],
+ ["chuyển khoản","Điều hướng ra ngoài","cao","Thanh toán qua TikTok Shop"],
+ ["giá sỉ","Điều hướng ra ngoài","tb","Đặt giá sỉ trong Shop; không hẹn chốt riêng"],
+ // Tương tác giả
+ ["follow chéo","Tương tác giả","cao","“bình luận cho mình biết bạn thấy sao”"],
+ ["tim chéo","Tương tác giả","cao","Bỏ"],
+ ["like chéo","Tương tác giả","cao","Bỏ"],
+ ["thả tim đi","Tương tác giả","tb","Kêu gọi tự nhiên, không đổi quà"],
+ ["share để nhận quà","Tương tác giả","cao","Minigame có thể lệ, không bắt share"],
+ ["follow nhận quà","Tương tác giả","cao","Minigame có thể lệ, không bắt follow"],
+ ["mua view","Tương tác giả","cam","Không mua tương tác"],
+ ["mua follow","Tương tác giả","cam","Không mua tương tác"],
+ ["buff","Tương tác giả","cao","Không mua tương tác"],
+ // Hàng giả
+ ["fake","Hàng giả, hàng cấm","cam","Chỉ bán hàng có nguồn gốc"],
+ ["rep 1:1","Hàng giả, hàng cấm","cam","Không bán"],
+ ["super fake","Hàng giả, hàng cấm","cam","Không bán"],
+ ["like auth","Hàng giả, hàng cấm","cam","Không bán"],
+ ["hàng nhái","Hàng giả, hàng cấm","cam","Không bán"],
+ ["xách tay","Hàng giả, hàng cấm","cao","Chỉ bán hàng có hoá đơn, nhãn phụ tiếng Việt"],
+ ["không hoá đơn","Hàng giả, hàng cấm","cao","Bỏ"],
+ ["hàng lậu","Hàng giả, hàng cấm","cam","Không bán"],
+ // Cờ bạc
+ ["cá cược","Cờ bạc","cam","Không đề cập"],
+ ["soi kèo","Cờ bạc","cam","Không đề cập"],
+ ["nổ hũ","Cờ bạc","cam","Không đề cập"],
+ ["tài xỉu","Cờ bạc","cam","Không đề cập"],
+ ["casino","Cờ bạc","cam","Không đề cập"],
+ ["lô đề","Cờ bạc","cam","Không đề cập"],
+ ["xổ số","Cờ bạc","tb","Không dùng làm cơ chế khuyến mãi"],
+ ["quay số trúng thưởng","Cờ bạc","tb","Khuyến mãi may rủi cần đăng ký với Sở Công Thương"],
+ // Chất cấm
+ ["ma tuý","Chất cấm, rượu, thuốc lá","cam","Không đề cập"],
+ ["cỏ mỹ","Chất cấm, rượu, thuốc lá","cam","Không đề cập"],
+ ["bay lắc","Chất cấm, rượu, thuốc lá","cam","Không đề cập"],
+ ["khí cười","Chất cấm, rượu, thuốc lá","cam","Không đề cập"],
+ ["vape","Chất cấm, rượu, thuốc lá","cam","Không đề cập"],
+ ["thuốc lá điện tử","Chất cấm, rượu, thuốc lá","cam","Không đề cập"],
+ ["pod","Chất cấm, rượu, thuốc lá","tb","Tránh nếu nói về thuốc lá điện tử"],
+ ["nhậu","Chất cấm, rượu, thuốc lá","tb","Không quay cảnh uống rượu bia trên kênh công ty"],
+ // Vũ khí bạo lực
+ ["súng","Vũ khí, bạo lực","cao","Không đề cập"],
+ ["dao phóng lợn","Vũ khí, bạo lực","cam","Không đề cập"],
+ ["pháo nổ","Vũ khí, bạo lực","cam","Không đề cập"],
+ ["xử đẹp","Vũ khí, bạo lực","cao","Không dùng, kể cả nói đùa"],
+ ["giết","Vũ khí, bạo lực","tb","Với sâu bệnh: “phòng trừ”, “tiêu diệt” hợp hơn"],
+ ["đánh hội đồng","Vũ khí, bạo lực","cam","Không đề cập"],
+ // Tình dục
+ ["sugar baby","Tình dục, nhạy cảm","cam","Không đề cập"],
+ ["qua đêm","Tình dục, nhạy cảm","cao","Không đề cập"],
+ ["gợi cảm","Tình dục, nhạy cảm","tb","Tránh với kênh doanh nghiệp"],
+ ["sexy","Tình dục, nhạy cảm","tb","Tránh với kênh doanh nghiệp"],
+ // Thù ghét
+ ["bắc kỳ","Thù ghét, quấy rối","cam","Không dùng từ miệt thị vùng miền"],
+ ["nam kỳ","Thù ghét, quấy rối","cao","Không dùng từ miệt thị vùng miền"],
+ ["parky","Thù ghét, quấy rối","cam","Không dùng"],
+ ["bóc phốt","Thù ghét, quấy rối","cao","Phản hồi khách qua kênh riêng, che thông tin"],
+ ["mọi rợ","Thù ghét, quấy rối","cam","Không dùng"],
+ // Tự hại
+ ["tự tử","Tự hại","cam","Không dùng, kể cả làm hook"],
+ ["muốn chết","Tự hại","cao","Không dùng, kể cả nói đùa"],
+ ["cắt tay","Tự hại","cam","Không dùng"],
+ // Lừa đảo
+ ["việc nhẹ lương cao","Lừa đảo, tài chính","cam","Nêu rõ công việc, mức lương thật"],
+ ["lãi suất cao","Lừa đảo, tài chính","cao","Không hứa lợi nhuận"],
+ ["đầu tư sinh lời","Lừa đảo, tài chính","cao","Không hứa lợi nhuận"],
+ ["nhận tiền trước","Lừa đảo, tài chính","cao","Bỏ"],
+ ["vay nhanh","Lừa đảo, tài chính","cam","Không quảng bá cho vay"],
+ ["cam kết doanh thu","Lừa đảo, tài chính","cao","Bỏ"],
+ // Chính trị
+ ["đảng","Chính trị, sự kiện nóng","tb","Kênh doanh nghiệp nên tránh chủ đề chính trị"],
+ ["biểu tình","Chính trị, sự kiện nóng","cao","Tránh"],
+ ["chế độ","Chính trị, sự kiện nóng","tb","Đọc lại ngữ cảnh"],
+ // Ngành BVTV / phân bón
+ ["diệt sạch","Nông nghiệp · BVTV","cao","“hiệu quả cao theo mô hình tại…”",1],
+ ["diệt tận gốc","Nông nghiệp · BVTV","cao","“phòng trừ hiệu quả”",1],
+ ["sạch bóng","Nông nghiệp · BVTV","cao","“giảm mật độ sâu bệnh”",1],
+ ["an toàn tuyệt đối","Nông nghiệp · BVTV","cam","“sử dụng đúng hướng dẫn trên nhãn”",1],
+ ["không độc","Nông nghiệp · BVTV","cam","Nêu nhóm độc theo nhãn",1],
+ ["không độc hại","Nông nghiệp · BVTV","cam","Nêu nhóm độc theo nhãn",1],
+ ["vô hại","Nông nghiệp · BVTV","cam","“sử dụng đúng hướng dẫn trên nhãn”",1],
+ ["đặc trị","Nông nghiệp · BVTV","cao","“chuyên dùng cho…”, “phòng trừ…”",1],
+ ["thuốc tiên","Nông nghiệp · BVTV","cao","Tên thương phẩm + công dụng",1],
+ ["gấp đôi năng suất","Nông nghiệp · Phân bón","cao","“giúp cây sinh trưởng tốt”",1],
+ ["năng suất gấp đôi","Nông nghiệp · Phân bón","cao","“giúp cây sinh trưởng tốt”",1],
+ ["tăng năng suất gấp đôi","Nông nghiệp · Phân bón","cao","“giúp cây sinh trưởng tốt”",1],
+ ["x2 năng suất","Nông nghiệp · Phân bón","cao","Nêu kết quả mô hình có địa điểm, thời gian",1],
+ ["siêu tăng năng suất","Nông nghiệp · Phân bón","cao","“hỗ trợ tăng năng suất”",1],
+ ["siêu năng suất","Nông nghiệp · Phân bón","cao","“hỗ trợ tăng năng suất”",1],
+ ["hữu cơ","Nông nghiệp · Phân bón","tb","Chỉ dùng khi sản phẩm được công nhận là phân hữu cơ",1],
+ ["organic","Nông nghiệp · Phân bón","tb","Chỉ dùng khi có chứng nhận",1],
+ ["sinh học","Nông nghiệp · Phân bón","tb","Chỉ dùng khi đúng loại đã đăng ký",1],
+ ["pha chung","Nông nghiệp · BVTV","cao","“pha đúng liều trên nhãn, hỏi kỹ sư khi cần phối hợp”",1],
+ ["tăng liều","Nông nghiệp · BVTV","cao","“dùng đúng liều trên nhãn”",1],
+ ["tự pha chế","Nông nghiệp · BVTV","cao","Không hướng dẫn tự pha chế",1],
+ ["thuốc thái","Nông nghiệp · BVTV","cam","Chỉ bán thuốc có trong danh mục, nhãn tiếng Việt",1],
+ ["thuốc trung quốc","Nông nghiệp · BVTV","cam","Chỉ bán thuốc có trong danh mục, nhãn tiếng Việt",1],
+ ["không nhãn","Nông nghiệp · BVTV","cam","Chỉ bán sản phẩm có nhãn đầy đủ",1],
+ ["thuốc cỏ cháy","Nông nghiệp · BVTV","cao","Tên thương phẩm + công dụng đã đăng ký",1],
+ ["thuốc chuột","Nông nghiệp · BVTV","cao","Tên thương phẩm; nhấn mạnh an toàn khi dùng",1],
+ ["uống được","Nông nghiệp · BVTV","cam","Không nói về hoá chất",1],
+ ["paraquat","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["gramoxone","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["2,4-d","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["2.4d","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["glyphosate","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["roundup","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["chlorpyrifos","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["fipronil","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["carbendazim","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["benomyl","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1],
+ ["thiophanate","Hoạt chất bị loại khỏi danh mục","cam","Không nhắc, không bán",1]
+];
+const LVK=['cam','cao','tb'];
+function kwFromDocs(docs){return (docs||[]).filter(d=>d&&d.term&&LVK.includes(d.level)).map(d=>[String(d.term),String(d.group||'Nội bộ bổ sung'),d.level,String(d.fix||'Đọc lại ngữ cảnh'),d.agri?1:0])}
+let extraK=kwFromDocs(snap.keywords); // từ db (hoặc bản lưu)
+
+const LV={cam:{t:"Cấm",c:"lv-cam",m:"m-cam",r:3},cao:{t:"Rủi ro cao",c:"lv-cao",m:"m-cao",r:2},tb:{t:"Lưu ý",c:"lv-tb",m:"m-tb",r:1}};
+
+// Chuẩn hoá giữ nguyên độ dài: bỏ dấu, đổi chữ số giả chữ
+function strip(ch){if(ch==='đ'||ch==='Đ')return 'd';const b=ch.normalize('NFD').replace(/[̀-ͯ]/g,'');return b.length===1?b:ch}
+const LEET={'0':'o','1':'i','3':'e','4':'a','@':'a','$':'s','!':'i','5':'s','7':'t'};
+function variants(text){
+  const t=text.normalize('NFC').toLowerCase();
+  let plain='',loose='';
+  for(const ch of t){const s=strip(ch);plain+=s.length===1?s:ch;}
+  for(const ch of plain){loose+=LEET[ch]||ch;}
+  return{t,plain,loose};
+}
+function reEsc(s){return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}
+const B='(?<![\\p{L}\\p{N}])',E='(?![\\p{L}\\p{N}])';
+const SEP='[\\s.\\-_*•·,/\\\\|]{1,2}';
+
+function allKeywords(agri){return K.concat(extraK).filter(k=>agri||!k[4])}
+
+function scan(text,agri){
+  const V=variants(text);const hits=[];
+  const add=(s,e,k,how)=>hits.push({s,e,k,how,src:text.slice(s,e)});
+  for(const k of allKeywords(agri)){
+    const term=k[0].normalize('NFC').toLowerCase();
+    const termPlain=[...term].map(strip).join('');
+    const isShort=termPlain.replace(/[^a-z0-9]/g,'').length<=3;
+    let found=false;
+    // 1. đúng chính tả
+    let re=new RegExp(B+reEsc(term)+E,'gu'),m;
+    while((m=re.exec(V.t))){add(m.index,m.index+m[0].length,k,'');found=true}
+    // 2. không dấu (chỉ khi từ có dấu)
+    if(termPlain!==term){
+      re=new RegExp(B+reEsc(termPlain)+E,'gu');
+      while((m=re.exec(V.plain))){const o=V.t.slice(m.index,m.index+m[0].length);if(o===m[0]){add(m.index,m.index+m[0].length,k,'viết không dấu');found=true}}
+    }
+    // 3. viết lách (m.a t.u.y, 1 -> i) — chỉ cho từ dài, mức cam/cao
+    if(!isShort&&k[2]!=='tb'){
+      const chars=[...termPlain.replace(/\s+/g,'')];
+      const pat=chars.map(c=>reEsc(LEET[c]||c)).join('(?:'+SEP+')?');
+      re=new RegExp(B+pat+E,'gu');
+      while((m=re.exec(V.loose))){
+        const seg=V.plain.slice(m.index,m.index+m[0].length);
+        const orig=V.t.slice(m.index,m.index+m[0].length);
+        const squash=s=>s.replace(/[\s.\-_*•·,/\\|]/g,'');
+        const accentOk=orig===seg||squash(orig)===squash(term);
+        const normalSeg=seg.replace(/\s+/g,' ');
+        if(accentOk&&normalSeg!==termPlain&&normalSeg!==termPlain.replace(/\s+/g,'')){add(m.index,m.index+m[0].length,k,'viết lách để né');}
+      }
+    }
+  }
+  // Mẫu: số điện thoại, link, email
+  const PAT=[
+    [/(?<!\d)(?:\+?84|0)(?:[\s.\-]?\d){8,10}(?!\d)/g,["số điện thoại","Thông tin liên hệ","cao","Bỏ số điện thoại khỏi nội dung; dùng tin nhắn TikTok"]],
+    [/https?:\/\/\S+|www\.\S+|(?<![\p{L}\p{N}@])[a-z0-9-]+\.(?:com|vn|net|shop|store|me|link|online)(?:\/\S*)?/giu,["đường link","Thông tin liên hệ","cao","Không dẫn link ngoài TikTok"]],
+    [/[\w.+-]+@[\w-]+\.[\w.]+/g,["email","Thông tin liên hệ","tb","Không ghi email trong video, caption"]],
+    [/(?<!\d)\d{9,16}(?!\d)/g,["dãy số dài (có thể là số tài khoản)","Thông tin liên hệ","cao","Không ghi số tài khoản, thanh toán qua Shop"]]
+  ];
+  for(const [re,k] of PAT){let m;re.lastIndex=0;while((m=re.exec(V.t))){add(m.index,m.index+m[0].length,k,'')}}
+  // Bỏ trùng: giữ hit dài hơn / mức cao hơn khi chồng lấn
+  hits.sort((a,b)=>a.s-b.s||(b.e-b.s)-(a.e-a.s)||LV[b.k[2]].r-LV[a.k[2]].r);
+  const out=[];
+  for(const h of hits){
+    const o=out.find(x=>h.s<x.e&&h.e>x.s);
+    if(!o){out.push(h);continue}
+    const better=LV[h.k[2]].r>LV[o.k[2]].r||(LV[h.k[2]].r===LV[o.k[2]].r&&(h.e-h.s)>(o.e-o.s));
+    if(better){out.splice(out.indexOf(o),1,h)}
+  }
+  return out.sort((a,b)=>a.s-b.s);
+}
+
+function render(text,hits){
+  // highlight
+  let html='',pos=0;
+  // map index in normalized lowercase NFC string back to original: we normalized the original to NFC; use NFC text for display
+  const disp=text.normalize('NFC');
+  for(const h of hits){html+=esc(disp.slice(pos,h.s))+`<mark class="${LV[h.k[2]].m}" title="${esc(h.k[1])}">${esc(disp.slice(h.s,h.e))}</mark>`;pos=h.e}
+  html+=esc(disp.slice(pos));
+  $('#hl').innerHTML=html||'<span class="note">Chưa có nội dung.</span>';
+  const n={cam:0,cao:0,tb:0};hits.forEach(h=>n[h.k[2]]++);
+  const v=$('#verdict');
+  if(!text.trim()){v.className='verdict ok';v.textContent='Chưa có nội dung để rà';}
+  else if(n.cam){v.className='verdict bad';v.textContent=`Có ${n.cam} từ ở mức Cấm. Phải sửa trước khi đăng.`}
+  else if(n.cao){v.className='verdict warn';v.textContent=`Có ${n.cao} từ rủi ro cao. Nên sửa để tránh bị bóp tương tác.`}
+  else if(n.tb){v.className='verdict ok';v.textContent=`Không có từ cấm. ${n.tb} từ cần đọc lại ngữ cảnh.`}
+  else{v.className='verdict ok';v.textContent='Không phát hiện từ khoá rủi ro trong danh sách.'}
+  $('#stat').innerHTML=Object.keys(n).filter(k=>n[k]).map(k=>`<span class="chip ${LV[k].c}">${LV[k].t}: ${n[k]}</span>`).join('');
+  // hit list grouped by term
+  const g=new Map();
+  hits.forEach(h=>{const key=h.k[0]+'|'+h.how;if(!g.has(key))g.set(key,{h,c:0,srcs:new Set()});const x=g.get(key);x.c++;x.srcs.add(h.src)});
+  const arr=[...g.values()].sort((a,b)=>LV[b.h.k[2]].r-LV[a.h.k[2]].r);
+  $('#hits').innerHTML=arr.map(({h,c,srcs})=>`<div class="hit"><div class="top"><span class="chip ${LV[h.k[2]].c}">${LV[h.k[2]].t}</span><b>“${esc([...srcs].join('”, “'))}”</b>${c>1?`<span class="note">×${c}</span>`:''}</div><div class="fix">${esc(h.k[1])}${h.how?' · '+esc(h.how):''}</div><div>Nói thay: ${esc(h.k[3])}</div></div>`).join('');
+}
+function run(){const t=$('#src').value;render(t,scan(t,$('#optAgri').checked));$('#aiOut').hidden=true}
+$('#btnCheck').addEventListener('click',run);
+$('#btnClear').addEventListener('click',()=>{$('#src').value='';run();$('#src').focus()});
+$('#optAgri').addEventListener('change',run);
+let deb;$('#src').addEventListener('input',()=>{clearTimeout(deb);deb=setTimeout(run,400)});
+run();
+
+// Keyword table
+function kwTable(){
+  const f=($('#kwFilter').value||'').toLowerCase();
+  const list=K.concat(extraK);
+  $('#kwCount').textContent=list.length;
+  $('#kwBody').innerHTML=list.filter(k=>!f||(k[0]+' '+k[1]).toLowerCase().includes(f)).map(k=>`<tr><td><b>${esc(k[0])}</b></td><td>${esc(k[1])}</td><td><span class="chip ${LV[k[2]].c}">${LV[k[2]].t}</span></td><td>${esc(k[3])}</td></tr>`).join('');
+}
+$('#kwFilter').addEventListener('input',kwTable);kwTable();
+
+/* ---------- Feed rendering ---------- */
+const KIND={tiktok:["Chính sách TikTok","k-tiktok"],phapluat:["Pháp luật VN","k-phapluat"],noibo:["Nội bộ","k-noibo"]};
+let feedDocs=null,feedKind='all';
+function fmtDate(d){if(!d)return'';const m=/^(\d{4})-(\d{2})-(\d{2})/.exec(d);return m?`${m[3]}/${m[2]}/${m[1]}`:d}
+function renderFeed(){
+  const el=$('#feed');
+  if(feedDocs===null){return}
+  const list=feedDocs.filter(d=>feedKind==='all'||d.kind===feedKind);
+  if(!list.length){el.innerHTML='<p class="empty">Chưa có cập nhật trong mục này.</p>';return}
+  el.innerHTML=list.map(d=>{const k=KIND[d.kind]||KIND.tiktok;const imp=d.level==='quan-trong';
+    return `<article class="item${imp?' important':''}"><div class="meta"><span>${esc(fmtDate(d.date))}</span><span class="chip ${k[1]}">${k[0]}</span>${imp?'<span class="chip lv-cam">Quan trọng</span>':''}${d.source?`<span>${esc(d.source)}</span>`:''}</div><h3>${esc(d.title)}</h3><p>${esc(d.summary)}</p>${d.sourceUrl&&/^https?:\/\//.test(d.sourceUrl)?`<a href="${esc(d.sourceUrl)}" target="_blank" rel="noopener">Xem nguồn</a>`:''}</article>`}).join('');
+}
+$$('#feedFilters button').forEach(b=>b.addEventListener('click',()=>{feedKind=b.dataset.k;$$('#feedFilters button').forEach(x=>x.setAttribute('aria-pressed',x===b));renderFeed()}));
+function scanText(d){return d&&d.lastRun?`Quét gần nhất: ${fmtDate(d.lastRun)}${d.nextRun?' · kế tiếp '+fmtDate(d.nextRun):''}`:'Chưa có lần quét nào'}
+// Hiện bản lưu ngay, trước khi kho dữ liệu trực tiếp trả lời
+if(snap.updates.length||snap.scan){
+  feedDocs=snap.updates.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)));renderFeed();
+  if(snap.scan)$('#scanPill').textContent=scanText(snap.scan);
+}
+function goOffline(){
+  live=false;
+  if(feedDocs===null){$('#feed').innerHTML='<p class="empty">Không kết nối được kho cập nhật và chưa có bản lưu. Mở trang trong Claude để xem tin mới.</p>'}
+  if(!snap.scan)$('#scanPill').textContent='Bản offline';
+  offlineNote();
+}
+
+/* ---------- Runtime capabilities ---------- */
+(async()=>{
+  const C=window.claude;
+  if(!C||!C.use){goOffline();return}
+  const [db,user,sample,downloads]=await Promise.all([C.use('db'),C.use('user'),C.use('sample'),C.use('downloads')]);
+  if(downloads){
+    $('#offlineBar').hidden=false;
+    $('#btnOffline').addEventListener('click',async()=>{
+      const b=$('#btnOffline'),msg=$('#offlineMsg');
+      const html=buildOffline();if(!html){msg.textContent='Chưa tạo được bản offline. Tải lại trang rồi thử lại.';return}
+      const d=new Date(),p=n=>String(n).padStart(2,'0');
+      b.disabled=true;
+      try{
+        await downloads.save({filename:`duc-thanh-tiktok-hub-${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())}.html`,data:html});
+        msg.textContent=`Đã tải bản offline, dữ liệu đến ${fmtTime(snap.exportedAt||d.toISOString())}.`;
+      }catch(e){
+        if(e&&e.code==='declined')msg.textContent='Đã huỷ tải.';
+        else if(e&&e.code==='rate_limited')msg.textContent='Đang có một hộp thoại tải khác. Thử lại sau ít giây.';
+        else{msg.textContent='Trình xem này không hỗ trợ tải tệp.';b.hidden=true}
+      }finally{b.disabled=false}
+    });
+  }
+  let canEdit=false;try{canEdit=user?await user.canEdit():false}catch(e){}
+
+  if(sample){
+    const b=$('#btnAI');b.hidden=false;
+    b.addEventListener('click',async()=>{
+      const text=$('#src').value.trim();if(!text)return;
+      const hits=scan(text,$('#optAgri').checked).map(h=>`${h.src} [${LV[h.k[2]].t} · ${h.k[1]}]`);
+      const out=$('#aiOut');out.hidden=false;out.innerHTML='<p class="note">Claude đang đọc nội dung…</p>';b.disabled=true;
+      const prompt=`Bạn là chuyên viên kiểm duyệt nội dung TikTok cho một công ty phân bón và thuốc bảo vệ thực vật ở Việt Nam.
+Hãy rà đoạn nội dung dưới đây theo: Nguyên tắc cộng đồng TikTok (bạo lực, hành vi nguy hiểm, thông tin sai lệch, hàng hoá bị quản lý, điều hướng ra ngoài nền tảng, tương tác giả, nội dung thương mại chưa tiết lộ), Luật Quảng cáo Việt Nam (cấm từ ngữ tuyệt đối, so sánh, công dụng không chứng minh), và quy định quảng cáo thuốc BVTV, phân bón.
+Công cụ từ khoá đã đánh dấu: ${hits.join('; ')||'không có'}.
+Chỉ ra cả những vấn đề về ngữ cảnh mà công cụ từ khoá bỏ sót. Trả về JSON đúng dạng:
+{"verdict":"an toàn|nên sửa|phải sửa","issues":[{"quote":"trích nguyên văn","reason":"vì sao","fix":"cách viết lại"}],"rewrite":"bản viết lại hoàn chỉnh, giữ ý bán hàng, tiếng Việt tự nhiên"}
+Nội dung:
+"""${text.slice(0,4000)}"""`;
+      try{
+        const r=await sample.json(prompt,{modelTier:'default'});
+        const cls=/phải/.test(r.verdict||'')?'bad':/nên/.test(r.verdict||'')?'warn':'ok';
+        out.innerHTML=`<div class="verdict ${cls}">Claude đánh giá: ${esc(r.verdict||'')}</div>`+
+          (Array.isArray(r.issues)?r.issues.map(i=>`<div class="hit"><b>“${esc(i.quote)}”</b><div class="fix">${esc(i.reason)}</div><div>Sửa: ${esc(i.fix)}</div></div>`).join(''):'')+
+          (r.rewrite?`<div class="card"><h3>Bản viết lại gợi ý</h3><p style="white-space:pre-wrap">${esc(r.rewrite)}</p><div class="row"><button class="btn ghost" type="button" id="useRw">Dùng bản này</button></div></div>`:'');
+        const u=$('#useRw');if(u)u.addEventListener('click',()=>{$('#src').value=r.rewrite;run()});
+      }catch(e){
+        if(e&&e.code==='not_granted'){out.innerHTML='<p class="note">Bạn chưa cho phép trang dùng Claude. Kết quả rà từ khoá bên trên vẫn dùng được.</p>';b.hidden=true}
+        else if(e&&e.code==='rate_limited'){out.innerHTML='<p class="note">Đang có nhiều yêu cầu. Thử lại sau ít phút.</p>'}
+        else{out.innerHTML='<p class="note">Claude chưa trả lời được lần này. Thử lại sau.</p>'}
+      }finally{b.disabled=false}
+    });
+  }
+
+  if(!db){goOffline();return}
+
+  const pick=(d,keys)=>{const o={};keys.forEach(k=>{if(d&&d[k]!==undefined)o[k]=d[k]});return o};
+  db.collection('updates').orderBy('date','desc').limit(500).onSnapshot(s=>{
+    live=true;offlineNote();
+    feedDocs=s.docs.map(d=>d.data());renderFeed();
+    snap.updates=feedDocs.map(d=>pick(d,['date','title','summary','kind','level','source','sourceUrl','createdAt']));saveSnap();
+  },()=>{goOffline()});
+  db.doc('meta/scan').onSnapshot(s=>{
+    const d=s.exists?s.data():null;
+    $('#scanPill').textContent=scanText(d);
+    snap.scan=d?pick(d,['lastRun','nextRun','status']):null;saveSnap();
+  },()=>{});
+  db.collection('keywords').limit(500).onSnapshot(s=>{
+    const docs=s.docs.map(d=>d.data());
+    extraK=kwFromDocs(docs);
+    snap.keywords=docs.map(d=>pick(d,['term','group','level','fix','agri']));saveSnap();
+    kwTable();run();
+  },()=>{});
+
+  if(canEdit){
+    $('#addBox').hidden=false;$('#kwAdd').hidden=false;
+    const today=new Date();$('#fDate').value=today.toISOString().slice(0,10);
+    $('#addForm').addEventListener('submit',async e=>{
+      e.preventDefault();const msg=$('#fMsg');const btn=$('#fSubmit');btn.disabled=true;msg.hidden=false;msg.textContent='Đang đăng…';
+      try{
+        await db.collection('updates').add({date:$('#fDate').value,title:$('#fTitle').value.trim(),summary:$('#fSummary').value.trim(),kind:$('#fKind').value,level:$('#fLevel').value,source:'Nhập tay',sourceUrl:$('#fUrl').value.trim(),createdAt:new Date().toISOString()});
+        msg.textContent='Đã đăng.';$('#fTitle').value='';$('#fSummary').value='';$('#fUrl').value='';
+      }catch(err){msg.textContent='Chưa đăng được. Kiểm tra quyền chỉnh sửa rồi thử lại.'}
+      finally{btn.disabled=false}
+    });
+    $('#kwAdd').addEventListener('submit',async e=>{
+      e.preventDefault();const msg=$('#kaMsg');msg.hidden=false;msg.textContent='Đang thêm…';
+      try{
+        await db.collection('keywords').add({term:$('#kaTerm').value.trim().toLowerCase(),group:$('#kaGroup').value.trim(),level:$('#kaLevel').value,fix:$('#kaFix').value.trim(),agri:false,createdAt:new Date().toISOString()});
+        msg.textContent='Đã thêm.';$('#kaTerm').value='';$('#kaFix').value='';
+      }catch(err){msg.textContent='Chưa thêm được. Kiểm tra quyền chỉnh sửa rồi thử lại.'}
+    });
+  }
+})();
+})();
+</script>
+
+</body></html>
